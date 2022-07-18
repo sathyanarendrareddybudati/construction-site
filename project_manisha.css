@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}body {font-family: Verdana, sans-serif; background:#fff;
+}
+body:hover {
+background:linear-gradient(to left,#ff105f,#ffad06);
+} 
+/* .mySlides {display: none;} */
+
+.navbar {
+overflow: hidden;
+background-color: black;
+/* position: sticky;
+/* top: 0;
+cursor: pointer;  */
+
+}
+.navbar a {
+float: left;
+
+color: white;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none; 
+
+
+ 
+}
+.navbar a.right {
+float: right;
+
+}
+.navbar a:hover, .dropdown:hover .dropbtn{
+background-color: lightgray;
+color: black;
+/* display: flex; */
+}
+.dropdown {
+float: left;
+overflow: hidden;
+/* display: flex;  */
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+/* display: flex; */
+}
+.dropdown-content {
+ display: none;
+position: absolute;
+background-color: lightblue;
+min-width: 160px;
+z-index: 1;
+/* display: flex; */
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: white;
+/* display: flex; */
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.background{ 
+    background:linear-gradient(to right,#ff105f,#ffad06), url(image/cp11.jpg) ; 
+   background-size: cover;
+ background-blend-mode: darken;  
+
+ } 
+ .firstsection{
+  height: 100vh; 
+
+} 
+.box-main{
+    display: flex;
+  justify-content: center; 
+  flex-direction: column; 
+  align-items: center;
+  color: aliceblue;
+  margin: auto;
+ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+max-width: 50%;
+height: 75%;
+}  
+.firstHalf{
+    align-items: center;
+    width: 100%;
+   display: flex; 
+    flex-direction: column;
+    justify-content: center;
+  margin: auto;
+}
+ .secondHalf{ 
+    width: 30%;
+    margin-top: 0;
+}
+.secondHalf img{
+    width:49PX;
+border: 4PX solid white;
+border-radius: 150px;
+    display: block;
+    margin: auto;
+} 
+.text_big{
+    font-size: 38px;
+
+
+}
+.text_small{
+    font-size:22px;
+}
+.btn{
+    padding: 8px 15px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
+
+}
+.section{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    max-width:80% ;
+    margin: auto;
+}
+/* .Left{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    max-width:80% ;
+    margin: auto;
+    font-family: 'ubuntu',sans-serif;
+} */
+.sectionsubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sectionTag{
+    padding: 16px 0;
+}
+
+.section-Left{
+    flex-direction: row-reverse;
+}
+.paras{
+    padding:0px 4px;
+}
+.thumbnail img{
+    width: 200px;
+    height: 180px;
+    border: 2px solid black;
+    border-radius:26px ;
+    margin-top: 19px;
+}
+@media ( max-width:400px){
+   .navbar{
+       flex-direction: column;
+   } 
+   .navbar a{
+       flex-direction: column;
+   }
+    .box-main{
+        flex-direction: column;
+
+    }
+    .section{
+        /* flex-direction: column; */
+        display: block;
+        /* margin-top: 180px; */
+        margin-top: 200px;
+        /* padding: auto; */
+    }
+/* .paras{
+    flex-direction: column;
+    display:block;
+} */
+.thumbnail{
+    flex-wrap: wrap;
+    display: block;
+ 
+}
+.sectionsubTag text-small{
+    display: block;
+    /* margin-top: 180px; */
+}
+}

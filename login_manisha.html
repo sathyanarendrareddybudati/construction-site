@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>login and registration page</title>
+        <link rel="stylesheet" href="login_manisha.css">
+ 
+
+    
+    </head>
+    <body>
+        <div class="navbar">
+            <img class="logo-img" src="logo.jpg" width="80" height="80" ALT="align box" ALIGN=left>
+              <a href="index.html">HOME</a>
+              <a href="./contact_us_manisha.html">Contact Us</a>
+              <a href="https://www.google.com/maps/@17.4396249,78.4427004,21z"target="_blank">Location</a>
+            </div>
+            <br>
+           
+        <div class="navbar">    
+            <a href="About us.html">About Us</a>
+          <div class="dropdown">
+              <button class="dropbtn">Our Business</button>
+              <div class="dropdown-content">
+                <a href="Roads.html">Roads</a>
+                <a href="Bridges.html">Bridges</a>
+                <a href="Buildings.html">Buildings</a>
+              </div>
+            </div> 
+          <a href="#">Projects</a>
+          <a href="https://www.fmb.org.uk/resource/constructions-recovery-can-be-secured-with-long-term-plan-to-green-our-homes.html" target="_blank">Media</a>
+          <a href="https://www.careersinconstruction.com/job-alert" target="_blank">Career</a>
+          <a href="./contact_us_manisha.html">Contact Us</a>
+          <a href="#">Gallery</a>
+          </div>
+        <div class="hero">
+            <div class="form-box">
+                
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                <button type="button" class="toggle-btn" onclick="registration()">Registration</button>
+            </div>
+            
+            <div class="social-icons">
+              <a  href="https://www.instagram.com/accounts/login/" target="_blank"><img src="image/instragrm1.jfif" style="width: 25px; height:25px;" ></a>
+              <a href="https://myaccount.google.com/?utm_source=sign_in_no_continue" target="_blank"><img src="image/google1.png" style="width: 25px; height:25px;"></a> 
+          <a href="https://twitter.com/LOGIN" target="_blank"><img src="image/twitter.png" style="width: 25px; height:25px;"></a> 
+             </div>
+<form  id="login" class="input-group">
+  
+    <input type="text" class="input-field" placeholder="user id" required> 
+  
+    <input type="text" class="input-field" placeholder="Enter your password" required> 
+
+   <input type="checkbox" class="chech-box"> <span>Remember password</span> 
+   <button type="submit" class="submit-btn">Log in</button>
+</form>
+<form id="registration"  class="input-group">
+    <!-- <form  class="input-group"> -->
+    <input type="text" class="input-field" placeholder="user id" required> 
+    <input type="text" class="input-field" placeholder="Enter your password" required> 
+    <input type="email" class="input-field" placeholder="Enter your email" required> 
+
+   <input type="checkbox" class="chech-box"> <span>Remember password</span> 
+   <button type="submit" class="submit-btn">Log in</button>
+</form>
+            </div>
+
+        </div>
+        <script>
+           var x = document.getElementById("login");
+           var y = document.getElementById("registration");
+           var z = document.getElementById("btn");
+         function registration(){
+              x.style.left="-400px" ;
+              y.style.left="50px" ;
+           z.style.left="110px" ;
+
+           }
+          function login(){
+              x.style.left="50px" ;
+              y.style.left="450px" ;
+           z.style.left="0px" ;
+
+     }
+        </script>
+                
+                         
+       </body>         
+    </html>
